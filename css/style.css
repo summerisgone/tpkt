@@ -28,10 +28,7 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
-@font-face {
-    font-family: 'bebas_neueregular';
-    src:url(../fonts/BebasNeue-webfont.ttf) format('truetype');
-}
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
 body{
 	font-family:Arial, Helvetica, sans-serif;
 	background:#fff;
@@ -49,8 +46,7 @@ body{
 }
 .logo h1 a{
 	color: #FFF;
-	font-size: 6em;
-	font-family: 'bebas_neueregular';
+	font-size: 70px;
 }
 /*--menu--*/
 .cssmenu{
@@ -102,12 +98,15 @@ body{
 .main{
 	padding:3% 0;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+}
 /*--content--*/
 .top-box h2{
 	text-align: center;
 	color: #888;
 	font-size: 3em;
-	font-family: 'bebas_neueregular';
 	margin-bottom: 20px;
 }
 hr {
@@ -132,6 +131,12 @@ hr {
 	width: 65%;
 	margin: 0 auto;
 }
+h1, h2, h3 {
+	color:#888;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
 /*  GRID OF FIVE   ============================================================================= */
 .col_1_of_5{
 	display: block;
@@ -350,7 +355,6 @@ time {
 .footer-text h2{
 	color:#fff;
 	font-size:3em;
-	font-family: 'bebas_neueregular';
 	text-transform:uppercase;
 	margin-bottom:2%;
 }
@@ -396,7 +400,6 @@ ul.follow_icon li {
 	color:#888;
 	font-size: 2em;
 	margin-bottom: 20px;
-	font-family: 'bebas_neueregular';
 }
 .about-img {
 	width: 30%;
@@ -422,7 +425,6 @@ ul.follow_icon li {
 	color:#888;
 	font-size: 2em;
 	margin-bottom: 20px;
-	font-family: 'bebas_neueregular';
 }
 .about-topgrid1 img {
 	margin-bottom:10px;
@@ -447,7 +449,6 @@ ul.follow_icon li {
 	color:#888;
 	font-size: 2em;
 	margin-bottom: 20px;
-	font-family: 'bebas_neueregular';
 }
 .about-histore ul li span {
 	color: #888;
@@ -474,7 +475,6 @@ ul.follow_icon li {
 	color:#888;
 	font-size: 2em;
 	margin-bottom: 20px;
-	font-family: 'bebas_neueregular';
 }
 .questions {
 	margin: 10px 0 3px 0;
@@ -529,7 +529,6 @@ ul.follow_icon li {
 	color: #888;
 	font-size: 2em;
 	margin-bottom: 20px;
-	font-family: 'bebas_neueregular';
 }
 .about-top{
 	padding-bottom:3%;
@@ -561,7 +560,6 @@ h4.head{
 	padding-bottom: 3%;
 }
 .list-box .numb {
-	font-family: 'bebas_neueregular';
 	font-size:4em;
 	color: #888;
 	display: block;
@@ -616,7 +614,6 @@ p.txt2{
 	color: #888;
 	font-size: 2em;
 	margin-bottom: 20px;
-	font-family: 'bebas_neueregular';
 }
 .contact-form{
 	position:relative;
