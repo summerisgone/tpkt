@@ -1,32 +1,34 @@
 <div class="header">
-  <div class="wrap">
-	<div class="header-top">
-		 <div class="logo">
-			 <h1><a href="/">Теплокомплект</a></h1>
-		 </div>
-	    <div id="text-6" class="visible-all-devices header-text ">
-	    	<div class="textwidget">Lorem ipsum dolor,<br>
-				diam nonummy nibh.<br>
-				<br>
-				nostrud exerci tation ullamcorper <br>
-				<h5 class="phone">+1 800 253 2560</h5></div>
-		</div>
-		 <div class="clear"></div>
-	   </div>
-   </div>
+    <div class="wrap">
+        <div class="header-top">
+            <div class="logo">
+                <h1><a href="/">Теплокомплект</a></h1>
+            </div>
+            <div id="text-6" class="visible-all-devices header-text ">
+                <div class="textwidget">
+                г. Коркино, ул. 1 Мая, 71, <br/>
+                <h5 class="phone">тел.: (351) 210-09-74 <br/>
+                    факс: (351) 796-61-39<br/>
+                    моб.: 8-904-81-90-832.</h5> <br/>
+                e-mail: <a href="mailto:avd-kotel@ya.ru">avd-kotel@ya.ru</a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
 </div>
 
 <div class="about-banner">
-  <div class="wrap">
-       <div class="cssmenu">
+    <div class="wrap">
+        <div class="cssmenu">
             <ul>
                 {% for page in site.pages %}
-                  {% if page.title %}
+                {% if page.title %}
                 <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                    {% endif %}
+                {% endif %}
                 {% endfor %}
                 <div class="clear"></div>
-             </ul>
+            </ul>
         </div>
-  </div>
+    </div>
 </div>
