@@ -1,6 +1,13 @@
-  * [Золоуловители серии БЦ-512](http://www.teplokomplekt.com/batareinye_cyklony_zolouloviteli.shtml#bc1)
-  * [Золоуловители серии БЦ-259](http://www.teplokomplekt.com/batareinye_cyklony_zolouloviteli.shtml#bc2)
-  * [Циклоны батарейные серии БЦ-2](http://www.teplokomplekt.com/batareinye_cyklony_zolouloviteli.shtml#bc3)
+---
+layout: page
+title:  Батарейные циклоны (золоуловители) серий БЦ-512, БЦ-2, БЦ-259
+description:  информация о батарейных циклонах БЦ-512 БЦ-2 и БЦ-259
+keywords:  батарейные циклоны, золоуловители, БЦ-512, БЦ-2, БЦ-259, бц
+---
+
+  * [Золоуловители серии БЦ-512](/batareinye_cyklony_zolouloviteli.shtml#bc1)
+  * [Золоуловители серии БЦ-259](/batareinye_cyklony_zolouloviteli.shtml#bc2)
+  * [Циклоны батарейные серии БЦ-2](/batareinye_cyklony_zolouloviteli.shtml#bc3)
 **
 
 # Золоуловители (батарейные циклоны) БЦ-512
@@ -8,7 +15,7 @@
 **
 
 Батарейные циклоны серии БЦ-512 предназначены для сухого улавливания золы,
-уносимой дымовыми газами из [топок](http://www.teplokomplekt.com/topki.shtml)
+уносимой дымовыми газами из [топок](/topki.shtml)
 стационарных котлов (паровых и водогрейных) при сжигании твёрдого топлива.
 
 Типоразмер золоуловителя
@@ -233,7 +240,7 @@
 1100 Па.
 
 ![батарейный циклон](/pic/bc-512.gif)![схема батарейного
-циклона](/pic/element512.jpg) [Наверх](http://www.teplokomplekt.com/batareinye
+циклона](/pic/element512.jpg) [Наверх](/batareinye
 _cyklony_zolouloviteli.shtml#head) **
 
 # Золоуловители (батарейные циклоны) БЦ-259
@@ -241,7 +248,7 @@ _cyklony_zolouloviteli.shtml#head) **
 **
 
 Применяются для сухого улавливания золы, уносимой дымовыми газами из
-[топок](http://www.teplokomplekt.com/topki.shtml) стационарных паровых и
+[топок](/topki.shtml) стационарных паровых и
 водогрейных котлов при сжигании твердого топлива.
 
 Один из широко используемых в нашей стране типов батарейных циклонов — БЦ 259.
@@ -441,7 +448,7 @@ _cyklony_zolouloviteli.shtml#head) **
 Батарейные циклоны БЦ-259 имеют КПД = 90% при гидравлическом сопротивлении
 1200 Па.
 
-![батарейный циклон бц-259](/pic/bc-259.gif) http://www.teplokomplekt.com/bata
+![батарейный циклон бц-259](/pic/bc-259.gif) /bata
 reinye_cyklony_zolouloviteli.shtml#head">Наверх  
 **
 
@@ -451,7 +458,7 @@ reinye_cyklony_zolouloviteli.shtml#head">Наверх
 
 Батарейные циклоны серии БЦ-2 с чугунным корпусом циклона — предназначены для
 улавливания золы в сухом виде, которую уносят дымовые газы из
-[топок](http://www.teplokomplekt.com/topki.shtml) стационарных паровых котлов
+[топок](/topki.shtml) стационарных паровых котлов
 (произв. 6,5-25 т/ч) и водогрейных котлов (произв. 4-10 Гкал/ч) при сжигании
 твёрдого топлива.
 
@@ -578,7 +585,7 @@ reinye_cyklony_zolouloviteli.shtml#head">Наверх
 По вопросам приобретения батарейных циклонов звоните: 8-904-81-90-832 (Денис
 Александрович).
 
-[Наверх](http://www.teplokomplekt.com/batareinye_cyklony_zolouloviteli.shtml#h
+[Наверх](/batareinye_cyklony_zolouloviteli.shtml#h
 ead)
 
 # Общая информация о батарейных циклонах
