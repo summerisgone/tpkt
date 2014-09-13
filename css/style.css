@@ -205,19 +205,19 @@ h1, h2, h3 {
 }
 /*  GRID OF FOUR   ============================================================================= */
 
-.col_1_of_4{
+.col_1_of_3{
 	display: block;
 	float: left;
 	margin: 1% 0 1% 2.6%;
 }
-.col_1_of_4:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
-.span_1_of_4 {
-	width: 22.8%;
+.col_1_of_3:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+.span_1_of_3 {
+	width: 33%;
 }
-.span_1_of_4 img{
+.span_1_of_3 img{
 	display:block;
 }
-.span_1_of_4  h3 a{
+.span_1_of_3  h3 a{
 	color:#fff;
 	text-transform: uppercase;
 	font-size:1.3em;
@@ -227,7 +227,7 @@ h1, h2, h3 {
 	margin-top: 0px;
 	letter-spacing: -1px;
 }
-.span_1_of_4  h3 a:hover{
+.span_1_of_3  h3 a:hover{
 	color:#E4E24F;
 }
 /***** Media Quries *****/
@@ -241,10 +241,10 @@ h1, h2, h3 {
 	.wrap{
 		width:95%;
 	}
-	.col_1_of_4{ 
+	.col_1_of_3{
 		margin: 1% 0 1% 0%;
 	}
-	.span_1_of_4 {
+	.span_1_of_3 {
 		width:94%;
 		padding:3%;  
 	}
@@ -254,10 +254,10 @@ h1, h2, h3 {
 	.wrap{
 		width:95%;
 	}
-	.col_1_of_4{ 
+	.col_1_of_3{
 		margin: 1% 0 1% 0%;
 	}
-	.span_1_of_4 {
+	.span_1_of_3 {
 		width:92%;
 		padding:4%; 
 	}
@@ -280,6 +280,21 @@ hr.hr {
 }
 .content-bottom{
 	margin-bottom: 5%;
+}
+.content-bottom .hover_img {
+    text-align: center;
+}
+.content-bottom .hover_img img {
+    display: inline;
+}
+.content-middle .section-group p {
+    color: #999;
+    font-size: 0.8125em;
+    line-height: 1.5em;
+}
+.content-middle .section-group a {
+    color: #333;
+    text-decoration: underline;
 }
 .caption1{
 	padding-top:8%;
@@ -611,7 +626,7 @@ p.txt2{
 .span_2_of_3  h3,
 .span_1_of_3  h3 {
 	color: #888;
-	font-size: 2em;
+	font-size: 1.2em;
 	margin-bottom: 20px;
 }
 .contact-form{
@@ -802,7 +817,7 @@ p.txt2{
 	.span_1_of_5 h3 {
 		font-size: 13px;
 	}
-	.span_1_of_4 h3 a {
+	.span_1_of_3 h3 a {
 		font-size: 1.2em;
 	}
 	.btn.btn-primary {
@@ -861,7 +876,7 @@ p.txt2{
 	.span_1_of_5 h3 {
 		font-size: 13px;
 	}
-	.span_1_of_4 h3 a {
+	.span_1_of_3 h3 a {
 		font-size: 1.2em;
 	}
 	.btn.btn-primary {
@@ -952,7 +967,7 @@ p.txt2{
 	.span_1_of_5 h3 {
 		font-size: 13px;
 	}
-	.span_1_of_4 h3 a {
+	.span_1_of_3 h3 a {
 		font-size: 1.2em;
 	}
 	.btn.btn-primary {
@@ -1049,7 +1064,7 @@ p.txt2{
 	.span_1_of_5 h3 {
 		font-size: 13px;
 	}
-	.span_1_of_4 h3 a {
+	.span_1_of_3 h3 a {
 		font-size: 1.2em;
 	}
 	.btn.btn-primary {
