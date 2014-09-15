@@ -7,17 +7,17 @@ url: "http://yourdomain.com"
 
 menu:
   - title: "Продукция"
-    url: '/katalog.shtml'
+    url: '/katalog.html'
   - title: "Гарантия и доставка"
-    url: '/garant.shtml'
+    url: '/garant.html'
   - title: "Спецпредложения"
-    url: '/spec.shtml'
+    url: '/spec.html'
   - title: "Подогреватели"
-    url: '/teploobmen.shtml'
+    url: '/teploobmen.html'
   - title: "Статьи"
-    url: '/poleznaya.shtml'
+    url: '/poleznaya.html'
   - title: "Новости"
-    url: '/news.shtml'
+    url: '/news.html'
 #  - title: "Прайc"
 #    url: '/price.html'
 

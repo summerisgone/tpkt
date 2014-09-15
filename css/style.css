@@ -44,10 +44,71 @@ body{
 .logo {
 	text-align: center;
 }
-.logo h1 a{
+
+.logo h1 a {
+    display: inline-block;
+    background: -moz-linear-gradient(left,  rgba(142,5,5,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(142,5,5,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(142,5,5,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(142,5,5,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(142,5,5,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(142,5,5,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a68e0505', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+    background-size: 3em 17pt;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    text-decoration: none !important;
+}
+.logo h1 a .title {
 	color: #FFF;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	font-size: 70px;
 }
+
+.logo h1 .line2 {
+    display: block;
+    margin-top: -10pt;
+    text-align: right;
+    color: darkred;
+    font-size: 14pt;
+}
+
+table {
+    border: 1px solid #999;
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+
+td {
+    padding: 3px 5px;
+    border-right: 1px solid #999;
+}
+
+td:last-child {
+    border: none;
+}
+
+table tr:nth-of-type(2n) td {
+    background: white;
+}
+
+table tr:nth-of-type(2n+1) td {
+    background: #E6DDA0;
+}
+
+a {
+    color: #747104;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: #BDBA04;
+}
+
 /*--menu--*/
 .cssmenu{
 	text-align:center;
@@ -60,6 +121,7 @@ body{
 .cssmenu > ul > li.active a, .cssmenu > ul > li a:hover {
 	color: #000;
 	background:#E4E24F;
+    text-decoration: none !important;
 }
 .cssmenu > ul > li > a {
 	text-transform: uppercase;
@@ -89,7 +151,6 @@ body{
 	background: url(../images/phone.png) left 8px no-repeat;
 }
 .banner{
-	background:#2f292b;
 	padding-bottom:2%;
 }
 .about-banner{
@@ -110,15 +171,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 hr {
+    margin: 1ex 0;
 	border-bottom: 1px solid #CCC;
 	border-top: none;
-	margin: 0;
-	width: 500px;
-	display: inline-block;
-	margin-top: -14px;
-	margin-bottom: 14px;
-	margin-right: auto;
-	margin-left: auto;
 }
 .top-box{
 	text-align:center;
@@ -267,12 +322,8 @@ h1, h2, h3 {
 	padding:20px;
 	text-align:center;
 }
-hr.hr {
-	border-bottom: 1px solid #4A4A4A;
-	width: 133px;
-	position: relative;
-	top: -4px;
-}
+
+
 .caption p{
 	color:#fff;
 	font-size:0.8125em;
@@ -288,13 +339,9 @@ hr.hr {
     display: inline;
 }
 .content-middle .section-group p {
-    color: #999;
-    font-size: 0.8125em;
-    line-height: 1.5em;
-}
-.content-middle .section-group a {
     color: #333;
-    text-decoration: underline;
+    font-size: 14pt;
+    line-height: 1.4em;
 }
 .caption1{
 	padding-top:8%;
