@@ -21,6 +21,12 @@ menu:
 #  - title: "Прайc"
 #    url: '/price.html'
 
+collections:
+  news:
+    output: true
+  articles:
+    output: true
+
 # Build settings
 markdown: kramdown
 permalink: pretty
